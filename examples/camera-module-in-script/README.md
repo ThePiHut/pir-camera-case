@@ -1,4 +1,4 @@
-# Using the Camera Module in a script
+﻿# Using the Camera Module in a script
 
 To use the Camera Module in a Python script, we use  ```camera.capture()``` for still photos, and ```camera.start_recording()``` for video.
 
