@@ -23,12 +23,12 @@ camera = PiCamera()
 
 try:
 	time.sleep(5)
-	print "Ready"
+	print("Ready")
 
 	while True:
 		if GPIO.input(PIR_PIN):
 			
-			print "Motion Detected!"
+			print("Motion Detected!")
 			
 			timestamp = time.strftime("%Y%m%d-%H%M%S")
 			video_name = 'VID_' + timestamp + '.h264'
@@ -39,12 +39,12 @@ try:
 			camera.stop_preview()
 
 			time.sleep(2)
-			print "Ready"
+			print("Ready")
 
 		time.sleep(1)
 
 except KeyboardInterrupt:
-	print "Quit"
+	print("Quit")
 	GPIO.cleanup()
 ```
 ## Photo Project
@@ -63,12 +63,12 @@ camera = PiCamera()
 
 try:
 	time.sleep(5)
-	print "Ready"
+	print("Ready")
 
 	while True:
 		if GPIO.input(PIR_PIN):
 			
-			print "Motion Detected!"
+			print("Motion Detected!")
 			
 			timestamp = time.strftime("%Y%m%d-%H%M%S")
 			image_name = 'IMG_' + timestamp + '.jpg'
@@ -79,12 +79,12 @@ try:
 			camera.stop_preview()
 
 			time.sleep(2)
-			print "Ready"
+			print("Ready")
 
 		time.sleep(1)
 
 except KeyboardInterrupt:
-	print "Quit"
+	print("Quit")
 	GPIO.cleanup()
 ```
 *Note: we add a 2-second delay after* ```camera.start_preview()``` *to allow the camera to adjust to the current lighting conditions before taking a photo.*
