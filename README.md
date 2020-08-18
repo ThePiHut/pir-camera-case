@@ -41,6 +41,15 @@ Run a quick test before proceeding. With your Raspberry Pi connected to a monito
 raspistill -o test.jpg
 ```
 If you don't see an image on the screen, check the camera connection, re-fit the cable if necessary, reboot and try again.
+
+**Adjust PIR sensitivity**
+
+PIR modules are usually set to half sensitivity out of the bag via the right hand knob seen in the image below:
+
+![Raspi-Config](.jpg)
+
+This can be a little too sensitive depending on the conditions your project will be in. If you experience excessive false triggers, try turning the right dial anti-clockwise and testing different levels of sensitivity. Heat, WiFi and other interference can also produce false triggers
+
 ## Example Code
 
 We have added examples below showing you how to control the individual components, alongside a combined code example showing a full motion-sensing camera project.
