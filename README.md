@@ -1,4 +1,4 @@
-# The Pi Hut Raspberry Pi PIR Camera Case - setup and code examples
+# The Pi Hut Raspberry Pi PIR Camera Case
 
 The PIR Camera Case ([Pi 4](https://thepihut.com) / [Pi Zero (Coming soon](https://thepihut.com)) is a case designed to hold your Raspberry Pi, an Official Raspberry Pi Camera Module and the included PIR sensor.
 
