@@ -44,7 +44,7 @@ If you don't see an image on the screen, check the camera connection, re-fit the
 
 **Adjust PIR sensitivity**
 
-PIR modules are usually set to half sensitivity out of the bag via the right hand knob seen in the image below:
+PIR modules are usually set to half sensitivity out of the bag via the right-hand dial seen in the image below:
 
 ![Raspi-Config](.jpg)
 
