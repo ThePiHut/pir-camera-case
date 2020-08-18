@@ -4,7 +4,7 @@ The PIR Camera Case ([Pi 4](https://thepihut.com) / [Pi 3](https://thepihut.com)
 
 When used together, you have a great foundation for an indoors Raspberry Pi motion-sensing camera project.
 
-![PIR Camera Case](/Images/PIR-Camera-Case-1.jpg)
+![PIR Camera Case](/Images/PIR-Camera-Case-2.jpg)
 
 This repository will show you how to [prepare your Raspberry Pi](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case#prepare-your-raspberry-pi) and give you some [example code](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case#example-code) to get you started.
 ## Prepare your Raspberry Pi
@@ -26,13 +26,12 @@ sudo raspi-config
 ```
 This will show a screen similar to this:
 ![STATUS Zero](images/status-zero.jpg)
-Now simply select X, X then X to enable the camera interface.
-REBOOT?
+Now simply select 'Interfacing Options', 'Camera' then 'Yes' to enable the camera interface. Reboot your Raspberry Pi when prompted.
 
 **Test the Camera**
 Run a quick test before proceeding. With your Raspberry Pi connected to a monitor via a HDMI cable, in a terminal window enter the following command to take a quick basic picture with the camera:
 ```bash
-raspistill abcd
+raspistill -o test.jpg
 ```
 If you don't see an image on the screen, check the camera connection, re-fit the cable if necessary, reboot and try again.
 ## Example Code
