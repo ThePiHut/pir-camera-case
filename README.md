@@ -48,7 +48,7 @@ PIR modules are usually set to half sensitivity out of the bag via the right han
 
 ![Raspi-Config](.jpg)
 
-This can be a little too sensitive depending on the conditions your project will be in. If you experience excessive false triggers, try turning the right dial anti-clockwise and testing different levels of sensitivity. Heat, WiFi and other interference can also produce false triggers
+This can be a little too sensitive depending on the conditions your project will be in. If you experience excessive false triggers, open the top of your case and try turning the right dial anti-clockwise and testing different levels of sensitivity. Heat, WiFi and other interference can also produce false triggers
 
 ## Example Code
 
