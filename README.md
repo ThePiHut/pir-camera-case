@@ -36,7 +36,7 @@ raspistill abcd
 ```
 If you don't see an image on the screen, check the camera connection, re-fit the cable if necessary, reboot and try again.
 ## Example Code
-We have added examples below showing you how to control the individual components, alongside a combine code example showing a full motion-sensing camera project.
+We have added examples below showing you how to control the individual components, alongside a combined code example showing a full motion-sensing camera project.
 
 **Controlling indivudual components**
 - [Simple PIR code](tutorials/status-zero/README.md)
