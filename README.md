@@ -20,7 +20,7 @@ You will need to have [assembled the case](#) which includes connecting the Came
 
 **Enable the Camera Interface**
 
-We need to make sure your Raspberry Pi is configured to use the Camera Module to enable it to take photos when instructed by our code.
+We need to make sure your Raspberry Pi is configured to use the Camera Module to enable it to take photos/videos when instructed by our code.
 
 We will enable the camera interface by opening a new terminal window and entering:
 ```bash
