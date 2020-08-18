@@ -4,7 +4,7 @@ To use the Camera Module in a Python script, we use  ```camera.capture()``` for 
 
 This allows you to take pictures and videos as part of your own program, triggered by the PIR sensor, time of day or anything else you decide to code.
 
-Below are some basic examples of simple script elements you can add to your code. See our **combined project code** for a full PIR-triggered camera project.
+Below are some basic examples of simple script elements you can add to your code. See our [combined project code](https://github.com/ThePiHut/PIR-Camera-Case/tree/master/examples/pir-camera-code) for a full PIR-triggered camera project.
 ## Photo script
 ```python
 #imports
