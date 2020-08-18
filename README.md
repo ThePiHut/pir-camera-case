@@ -25,7 +25,9 @@ We will enable the camera interface by opening a new terminal window and enterin
 sudo raspi-config
 ```
 This will show a screen similar to this:
+
 ![Raspi-Config](Images/raspi-config-screen.jpg)
+
 Now simply select 'Interfacing Options', 'Camera' then 'Yes' to enable the camera interface. Reboot your Raspberry Pi when prompted.
 
 **Test the Camera**
