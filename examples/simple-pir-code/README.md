@@ -8,7 +8,7 @@ The code looks for input from the PIR module, which will give a signal via GPIO 
 
 ```python
 import RPi.GPIO as GPIO
-import time
+from time import sleep
 
 GPIO.setmode(GPIO.BCM)
 PIR_PIN = 17
