@@ -48,9 +48,9 @@ We have added examples below showing you how to control the individual component
 Remember: PIR sensors can be temperamental (and can be impacted by WiFi, heat and other interference) so will need some [tweaking](https://github.com) to avoid excessive false triggers.
 
 **Controlling individual components**
-- [Simple PIR code](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case/tree/master/examples/simple-pir-code)
-- [Basic camera module terminal commands](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case/tree/master/examples/basic-camera-commands)
-- [Using the camera module in a script](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case/tree/master/examples/camera-module-in-script)
+- [Simple PIR code](https://github.com/ThePiHut/PIR-Camera-Case/tree/master/examples/simple-pir-code)
+- [Basic camera module terminal commands](https://github.com/ThePiHut/PIR-Camera-Case/tree/master/examples/basic-camera-commands)
+- [Using the camera module in a script](https://github.com/ThePiHut/PIR-Camera-Case/tree/master/examples/camera-module-in-script)
 
 **Motion sensing project example**
-- [PIR + Camera code](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case/tree/master/examples/pir-camera-code)
+- [PIR + Camera code](https://github.com/ThePiHut/PIR-Camera-Case/tree/master/examples/pir-camera-code)
