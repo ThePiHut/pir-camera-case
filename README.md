@@ -8,7 +8,7 @@ When used together, you have a great foundation for an indoors Raspberry Pi moti
 
 ![PIR Camera Case](/images/PIR-Camera-Case-2.jpg)
 
-This repository will show you how to [prepare your Raspberry Pi](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case#prepare-your-raspberry-pi) and give you some [example code](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case#example-code) to get you started.
+This repository will show you how to [prepare your Raspberry Pi](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case#prepare-your-raspberry-pi) and give you some [example code](#example-code) to get you started.
 ## Prepare your Raspberry Pi
 
 **Operating System**
