@@ -1,6 +1,6 @@
 ﻿# Basic Camera Module Commands
 
-Here are some simple camera commands you can run from a terminal window once you have your case assembled and the [camera enabled](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case#prepare-your-raspberry-pi).
+Here are some simple camera commands you can run from a terminal window once you have your case assembled and the [camera enabled](https://github.com/ThePiHut/PIR-Camera-Case#prepare-your-raspberry-pi).
 
 ## Photos
 
