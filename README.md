@@ -14,7 +14,7 @@ This repository will show you how to [prepare your Raspberry Pi](https://github.
 We recommend the [Raspberry Pi OS](https://www.raspberrypi.org/downloads/) for this project/case, and this guide assumes you have the basic operating system loaded and ready.
 You can also use other systems such as [MotionEyeOS](https://github.com/ccrisan/motioneyeos/wiki) for a live video surveillance style system.
 
-**Case Asembly**
+**Case Assembly**
 
 You will need to have [assembled the case](#) which includes connecting the Camera Module and PIR sensor.
 
@@ -30,7 +30,7 @@ This will show a screen similar to this:
 
 ![Raspi-Config](images/raspi-config-screen.jpg)
 
-Now simply select 'Interfacing Options', 'Camera' then 'Yes' to enable the camera interface. Reboot your Raspberry Pi when prompted.
+Now simply select '**Interfacing Options**', '**Camera**' then '**Yes**' to enable the camera interface. Reboot your Raspberry Pi when prompted.
 
 **Test the Camera**
 
@@ -43,10 +43,12 @@ If you don't see an image on the screen, check the camera connection, re-fit the
 
 We have added examples below showing you how to control the individual components, alongside a combined code example showing a full motion-sensing camera project.
 
+Remember: PIR sensors can be temperamental (and can be impacted by WiFi, heat and other interference) so will need some [tweaking](https://github.com) to avoid excessive false triggers.
+
 **Controlling individual components**
-- [Simple PIR code](tutorials/status-zero/README.md)
-- [Basic camera module terminal commands](tutorials/status-board/README.md)
-- [Using the camera module in a script](tutorials/status-board/README.md)
+- [Simple PIR code](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case/tree/master/examples/simple-pir-code)
+- [Basic camera module terminal commands](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case/tree/master/examples/basic-camera-commands)
+- [Using the camera module in a script](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case/tree/master/examples/camera-module-in-script)
 
 **Motion sensing project example**
-- [PIR + Camera code](tutorials/status-zero/README.md)
+- [PIR + Camera code](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case/tree/master/examples/pir-camera-code)
