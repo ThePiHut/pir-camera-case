@@ -7,4 +7,4 @@
 
 **Motion sensing project example**
 
--   [PIR + Camera code](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case/blob/master/tutorials/status-zero/README.md)
+-   [PIR + Camera code](https://github.com/ThePiHut/Raspberry-Pi-PIR-Camera-Case/tree/master/examples/pir-camera-code)
