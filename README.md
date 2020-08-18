@@ -1,4 +1,4 @@
-# The Pi Hut Raspberry Pi PIR Camera Case
+# Raspberry Pi PIR Camera Case
 
 *Repository containing setup, code and Python script examples for the Raspberry Pi PIR Camera Case from The Pi Hut*
 ***
