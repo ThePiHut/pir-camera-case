@@ -1,6 +1,6 @@
 # The Pi Hut Raspberry Pi PIR Camera Case - setup and code examples
 
-The PIR Camera Case ([Pi 4](https://thepihut.com) / [Pi Zero (Coming soon](https://thepihut.com)) is a case designed to hold your Raspberry Pi, an [Official Raspberry Pi Camera Module](https://thepihut.com/products/raspberry-pi-camera-module) and the included PIR sensor.
+The PIR Camera Case ([Pi 4](https://thepihut.com) / [Pi Zero (Coming soon](https://thepihut.com)) is a case designed to hold your Raspberry Pi, an Official Raspberry Pi Camera Module and the included PIR sensor.
 
 When used together, you have a great foundation for an indoors Raspberry Pi motion-sensing camera project. Combine with [MotionEyeOS](https://github.com/ccrisan/motioneyeos/wiki) for a superb Raspberry Pi IP surveillance system!
 
