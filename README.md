@@ -63,3 +63,22 @@ Remember: PIR sensors can be temperamental (and can be impacted by WiFi, heat an
 
 **Motion sensing project example**
 - [PIR + Camera code](https://github.com/ThePiHut/PIR-Camera-Case/tree/master/examples/pir-camera-code)
+
+## Downloading example code
+You can download this entire repository on to your Raspberry Pi (including the example scripts) by following the steps below:
+
+In a terminal window, enter the following command:
+
+```git clone https://github.com/ThePiHut/PIR-Camera-Case```
+
+To enter the cloned repository directory, use:
+
+```cd PIR-Camera-Case```
+
+You can then access the example scripts by finding them in their respective directories. For example:
+
+```cd examples/pir-camera-code```
+
+If you then use the command ```ls``` to list the contents of that directory, you'll see the code file. You can then, for example, run that file with:
+
+```sudo python videoproject.py```
