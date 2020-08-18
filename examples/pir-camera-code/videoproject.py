@@ -11,12 +11,12 @@ camera = PiCamera()
 
 try:
 	time.sleep(5)
-	print "Ready"
+	print("Ready")
 
 	while True:
 		if GPIO.input(PIR_PIN):
 
-			print "Motion Detected!"
+			print("Motion Detected!")
 
 			timestamp = time.strftime("%Y%m%d-%H%M%S")
 			video_name = 'VID_' + timestamp + '.h264'
@@ -27,10 +27,10 @@ try:
 			camera.stop_preview()
 
 			time.sleep(2)
-			print "Ready"
+			print("Ready")
 
 		time.sleep(1)
 
 except KeyboardInterrupt:
-	print "Quit"
+	print("Quit")
 	GPIO.cleanup()
