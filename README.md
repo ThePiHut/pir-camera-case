@@ -31,12 +31,14 @@ This will show a screen similar to this:
 Now simply select 'Interfacing Options', 'Camera' then 'Yes' to enable the camera interface. Reboot your Raspberry Pi when prompted.
 
 **Test the Camera**
+
 Run a quick test before proceeding. With your Raspberry Pi connected to a monitor via a HDMI cable, in a terminal window enter the following command to take a quick basic picture with the camera:
 ```bash
 raspistill -o test.jpg
 ```
 If you don't see an image on the screen, check the camera connection, re-fit the cable if necessary, reboot and try again.
 ## Example Code
+
 We have added examples below showing you how to control the individual components, alongside a combined code example showing a full motion-sensing camera project.
 
 **Controlling indivudual components**
