@@ -46,7 +46,7 @@ If you don't see an image on the screen, check the camera connection, re-fit the
 
 PIR modules are usually set to half sensitivity out of the bag via the right-hand dial seen in the image below:
 
-![Raspi-Config](.jpg)
+![PIR Sensitivity](https://github.com/ThePiHut/PIR-Camera-Case/blob/master/images/PIR-settings.jpg)
 
 This can be a little too sensitive depending on the conditions your project will be in. If you experience excessive false triggers, open the top of your case and try turning the right dial anti-clockwise and testing different levels of sensitivity. Heat, WiFi and other interference can also produce false triggers
 
