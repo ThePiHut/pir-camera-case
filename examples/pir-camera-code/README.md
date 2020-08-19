@@ -4,7 +4,7 @@ The examples below can be used as a foundation for your own project, where you c
 
 Our example projects combine the [PIR example](https://github.com/ThePiHut/pir-camera-case/tree/master/examples/simple-pir-code) and [Camera Module script examples](https://github.com/ThePiHut/pir-camera-case/tree/master/examples/camera-module-in-script) into a single project - taking a photo or video every time motion is detected.
 
-Rememeber that PIR sensors can be temperamental (*and can be impacted by WiFi, heat and other interference*) so will need some [tweaking](https://github.com/) to avoid excessive false triggers.
+Rememeber that PIR sensors can be temperamental (*and can be impacted by WiFi, heat and other interference*) so will need some [tweaking](https://github.com/ThePiHut/pir-camera-case#prepare-your-raspberry-pi) to avoid excessive false triggers.
 ## Video Project
 This project takes a 10-second video every time motion is detected by the PIR sensor. 
 
