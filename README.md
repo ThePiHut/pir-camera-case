@@ -2,7 +2,7 @@
 
 *Repository containing setup, code and Python script examples for the Raspberry Pi PIR Camera Case from The Pi Hut*
 ***
-The PIR Camera Case ([Pi 4](https://thepihut.com) / [Pi Zero (Coming soon](https://thepihut.com)) is a case designed to hold your Raspberry Pi, an Official Raspberry Pi Camera Module and the included PIR sensor.
+The PIR Camera Case ([Pi 4](https://thepihut.com) / Pi Zero *(Coming soon)* is a case designed to hold your Raspberry Pi, an Official Raspberry Pi Camera Module and the included PIR sensor.
 
 When used together, you have a great foundation for an indoors Raspberry Pi motion-sensing camera project. Combine with [MotionEyeOS](https://github.com/ccrisan/motioneyeos/wiki) for a superb Raspberry Pi IP surveillance system!
 
@@ -46,7 +46,7 @@ If you don't see an image on the screen, check the camera connection, re-fit the
 
 PIR modules are usually set to half sensitivity out of the bag via the right-hand dial seen in the image below:
 
-![PIR Sensitivity](https://github.com/ThePiHut/PIR-Camera-Case/blob/master/images/PIR-settings.jpg)
+![PIR Sensitivity](https://github.com/ThePiHut/pir-camera-case/blob/master/images/PIR-settings.jpg)
 
 This can be a little too sensitive depending on the conditions your project will be in. If you experience excessive false triggers, open the top of your case and try turning the right dial anti-clockwise and testing different levels of sensitivity. Heat, WiFi and other interference can also produce false triggers
 
@@ -57,23 +57,23 @@ We have added examples below showing you how to control the individual component
 Remember: PIR sensors can be temperamental (and can be impacted by WiFi, heat and other interference) so will need some [tweaking](https://github.com) to avoid excessive false triggers.
 
 **Controlling individual components**
-- [Simple PIR code](https://github.com/ThePiHut/PIR-Camera-Case/tree/master/examples/simple-pir-code)
-- [Basic camera module terminal commands](https://github.com/ThePiHut/PIR-Camera-Case/tree/master/examples/basic-camera-commands)
-- [Using the camera module in a script](https://github.com/ThePiHut/PIR-Camera-Case/tree/master/examples/camera-module-in-script)
+- [Simple PIR code](https://github.com/ThePiHut/pir-camera-case/tree/master/examples/simple-pir-code)
+- [Basic camera module terminal commands](https://github.com/ThePiHut/pir-camera-case/tree/master/examples/basic-camera-commands)
+- [Using the camera module in a script](https://github.com/ThePiHut/pir-camera-case/tree/master/examples/camera-module-in-script)
 
 **Motion sensing project example**
-- [PIR + Camera code](https://github.com/ThePiHut/PIR-Camera-Case/tree/master/examples/pir-camera-code)
+- [PIR + Camera code](https://github.com/ThePiHut/pir-camera-case/tree/master/examples/pir-camera-code)
 
 ## Downloading example code
 You can download this entire repository on to your Raspberry Pi (including the example scripts) by following the steps below:
 
 In a terminal window, enter the following command:
 
-```git clone https://github.com/ThePiHut/PIR-Camera-Case```
+```git clone https://github.com/ThePiHut/pir-camera-case```
 
 To enter the cloned repository directory, use:
 
-```cd PIR-Camera-Case```
+```cd pir-camera-case```
 
 You can then access the example scripts by finding them in their respective directories. For example:
 
