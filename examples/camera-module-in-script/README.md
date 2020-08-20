@@ -9,7 +9,7 @@ Below are some basic examples of simple script elements you can add to your code
 ```python
 #imports
 from picamera import PiCamera
-from time import sleep
+import time
 
 camera = PiCamera()
 
@@ -23,7 +23,7 @@ camera.stop_preview()
 ```python
 #imports
 from picamera import PiCamera
-from time import sleep
+import time
 
 camera = PiCamera()
 
