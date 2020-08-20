@@ -6,7 +6,7 @@ PIR_PIN = 17
 GPIO.setup(PIR_PIN, GPIO.IN)
 
 try:
-	print “PIR Module Test (CTRL+C to exit)”
+	print("PIR Module Test (CTRL+C to exit)")
 	time.sleep(2)
 	print("Ready")
 	while True:
