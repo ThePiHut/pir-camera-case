@@ -19,7 +19,7 @@ You can also use other systems such as [MotionEyeOS](https://github.com/ccrisan/
 
 **Case Assembly**
 
-You will need to have [assembled the case](#) which includes connecting the Camera Module and PIR sensor.
+You will need to have [assembled the case](https://thepihut.com/blogs/raspberry-pi-tutorials/pir-camera-case-assembly-instructions) which includes connecting the Camera Module and PIR sensor.
 
 **Enable the Camera Interface**
 
